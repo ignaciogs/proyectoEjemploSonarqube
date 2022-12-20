@@ -42,4 +42,16 @@ public class AppTest {
         double devuelto = App.Doblar(0);
         Assert.assertEquals( 0.0 , devuelto , 0);
     }
+    
+    @Test
+    public void test_triplar() {
+        double devuelto = App.Triplar(5);
+        Assert.assertEquals( 15.0 , devuelto , 0);
+    }
+    
+    @Test
+    public void test_mitad() {
+        double devuelto = App.Mitad(10);
+        Assert.assertEquals( 5.0 , devuelto , 0);
+    }
 }
